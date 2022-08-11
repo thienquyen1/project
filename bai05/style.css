@@ -1,0 +1,36 @@
+.board{
+    margin: 0px 98px;
+    width: 1100px;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 50px;
+    background-color: #f7f8fa;
+
+}
+.content{
+    line-height: 48px;
+}
+.location{
+    font-weight: 700px;
+
+}
+.status{
+    color:#5dc2a7;
+    font-weight: 700;
+}
+.job{
+    text-transform: uppercase;
+    font-weight:700;
+}
+.salary{
+    color:red;
+    font-weight: 700;
+}
+.btn{
+    color: white;
+    background-color: #5dc2a7;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding:10px;
+}
