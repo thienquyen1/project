@@ -1,0 +1,14 @@
+.menu{
+    padding:10px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 100px;
+    padding: 7px 15px;
+    border: none;
+}
+.sub-content{
+    background-color:cyan ;
+    color: white;
+}

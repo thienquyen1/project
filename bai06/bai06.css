@@ -16,6 +16,7 @@
     margin-top: 10px;
     margin-right: 10px;
     font-weight: 100px;
+    padding: 7px 15px;
 }
 .prime-menu li:hover{
     background-color: darkblue;
@@ -27,6 +28,8 @@
     display: block ;
     position: absolute !important;
     float: left;
+    top: 40px;
+    left: -40px;
     
 }
 a{
@@ -34,6 +37,10 @@ a{
 
 }
 .sub_menu_after{
-    padding: 20px;
-    margin-right: 20px;
+    text-align: start;
+    width: 95px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    padding: 7px 10px;
+    box-sizing: border-box;
 }
