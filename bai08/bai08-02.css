@@ -1,0 +1,6 @@
+#content1::first-letter{
+    font-size: 100px;
+}
+#content1::first-line{
+    color: red;
+}

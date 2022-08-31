@@ -1,0 +1,22 @@
+.main-content:first-child{
+    color: green;
+    background-color: yellow;
+}
+.main-content:last-child{
+    color: red;
+    background-color: black;
+}
+.main-content:first-child:hover{
+    color: yellow;
+    background-color: green;
+}
+.main-content:last-child:hover{
+    color: black;
+    background-color: red;
+}
+.main{
+    padding-top: 20px;
+    width: 100px;
+    font-size: larger;
+    
+}
