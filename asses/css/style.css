@@ -1,0 +1,171 @@
+html,
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Kanit', sans-serif;
+    src: url(/asses/font/Kanit/Kanit-Black.ttf);
+}
+.main {
+    height: auto;
+    background-color: rgb(255, 255, 255) ;
+}
+.left-menu{
+    background-color: rgb(12, 12, 12);
+    float: left;
+    max-width: 300px;
+    width: 250px;
+    height: 750px;
+    position: fixed;
+    
+}   
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+li{
+    padding: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+.title{
+    text-align: center;
+}
+.icon{
+    color: #fff;
+    font-size: 18px;
+}
+.title__content{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.main-content{
+    background-color: rgb(255, 255, 255);
+    min-width: calc(740px - 300px);
+    height: 750px;
+    
+}
+.content__1{
+    position: absolute;
+    background-color: rgb(218, 218, 218) ;
+    left: 20%;
+    top: 10%;
+    max-width: 400px;
+    max-height: 730px;
+    border: 0.5px solid white;
+}
+.content__1--img{
+    width: 100%;
+    height: auto;
+}
+.content__1--des{
+    padding: 10px;
+}
+
+.des__title{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.des__subtitle{
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+
+.des__main{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+.content__2{
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    background-color: rgb(218, 218, 218) ;
+    max-width: 400px;
+    padding-top: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    font-size: 20px;
+    
+}
+.content__2 i{
+    position: absolute;
+    right: 32%;
+    top: 12%;
+    font-size: 40px;
+    padding-right: 20px;
+    margin-right: 40px;
+    max-width: 400px;
+    
+}
+.content__2 p{
+    color: rgb(148, 147, 147) ;
+}
+.content__3{
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color:  rgb(198, 198, 198);
+    max-width: 400px;
+    height: 200px;
+}
+.content__3--img{ 
+    width: 441px;
+    position: absolute;
+    right: 10%;
+   
+}
+.content__3 h3{
+    position: absolute;
+    right: 30%;
+    font-weight: 400px ;
+    font-size: 25px;
+
+    font-family: 'Kanit', sans-serif;
+    margin-top: 441px ;
+    width: 421px;
+    height: 140px;
+    background-color:  rgb(198, 198, 198);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.content__3 #sub-content{
+    position: absolute;
+    right: 30%;
+    font-family:  'Kanit', sans-serif;
+    margin-top:  500px ;
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+    width: 421px ;
+    
+}
+.content__3 ul{
+    position: absolute;
+    font-family:  'Kanit', sans-serif;
+    right: 30%;
+    margin-top: 540px;
+    background-color: rgb(198, 198, 198);;
+    width: 371px ;
+    font-size: 20px;
+    padding-right: 30px;
+    list-style-type: none;
+    
+}
+.content__3 ul li{
+    list-style-type: none;
+    padding-right: 20px;
+}
